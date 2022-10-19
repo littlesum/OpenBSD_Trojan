@@ -1,0 +1,19 @@
+# trojan service rc.d script
+# start cmd example 
+# trojan -c /etc/trojan/config.json
+# plz help me fix problem
+
+#!/bin/ksh
+
+daemon="/usr/local/bin/trojan"
+daemon_flags="-c /etc/trojan/config.json"
+
+
+. /etc/rc.d/rc.subr
+
+rc_bg="YES" # (undefined or "YES")
+rc_start() {
+	rc_exec "${daemon} ${daemon_flags}"
+}
+rc_cmd $1
+
