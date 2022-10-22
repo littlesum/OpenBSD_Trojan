@@ -3,8 +3,8 @@
 
  **trojan-openbsd-x86_64 是 openbsd 7.1 的预编译可执行文件**
 
-## 使用说明
 
+## 使用说明
 ## 由于 OpenBSD 更新7.2，所以更新预编译文件
 
 1. Download files
