@@ -37,11 +37,12 @@
     *ps: without mysql support*
  
  4. make
-      `make install`
+     
+     `make install`
       
       or
       
-       `make` && `cp trojan /usr/bin`
+      `make` && `cp trojan /usr/bin`
  
  5. mkdir /etc/trojan
  6. config trojan
