@@ -1,7 +1,7 @@
 # OpenBSD-Trojan-X86-bin
 # 这是一个源于 [trojan-gfw](https://github.com/trojan-gfw/trojan) 的OpenBSD预编译版本，以及一个运行需要的rc.d 简单脚本，仅仅能保证服务运行！
 
- *trojan-openbsd-x86_64 是 openbsd 7.1 的预编译可执行文件*
+ **trojan-openbsd-x86_64 是 openbsd 7.1 的预编译可执行文件
 
 ## 使用说明
 
