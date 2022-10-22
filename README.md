@@ -47,6 +47,6 @@
       
       `make` && `cp trojan /usr/bin`
  
- 5. mkdir /etc/trojan
+ 5. `mkdir /etc/trojan`
  6. config trojan
  7. done
