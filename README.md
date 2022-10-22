@@ -5,7 +5,7 @@
 
 ## 使用说明
 
-## OpenBSD 更新7.2 所以更新预编译文件到7.2
+## 由于 OpenBSD 更新7.2，所以更新预编译文件
 
 1. Download files
 2. cp （bin file） to dir /usr/bin/
