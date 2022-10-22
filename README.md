@@ -19,6 +19,9 @@
 # OpenBSD 7.2 building progress 
 
 1. first download sources 
+     
+     `wget https://github.com/trojan-gfw/trojan/archive/refs/tags/v1.16.0.zip`
+
 2. install Dependencies lib
      
      `pkg_add boost cmake openssl`
