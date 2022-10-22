@@ -34,7 +34,7 @@
             --trace --debug-output
       ```
       
-    *ps: without no mysql support*
+    *ps: without mysql support*
  
  4. make
       `make install`
