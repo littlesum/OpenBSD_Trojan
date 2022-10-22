@@ -20,7 +20,9 @@
 
 1. first download sources 
 2. install Dependencies lib
-      `pkg_add boost cmake openssl`
+     
+     `pkg_add boost cmake openssl`
+
 3. configure cmake
       ```cmake -DCMAKE_INSTALL_PREFIX=/usr/bin/trojan \
       -DOPENSSL_ROOT_DIR=/usr/local \
@@ -31,7 +33,7 @@
       --trace --debug-output
       ```
       
-    *ps: without no mysql support
+    *ps: without no mysql support*
  
  4. make
       `make install`
