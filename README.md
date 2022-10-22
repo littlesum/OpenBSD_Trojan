@@ -24,13 +24,14 @@
      `pkg_add boost cmake openssl`
 
 3. configure cmake
-      ```cmake -DCMAKE_INSTALL_PREFIX=/usr/bin/trojan \
-      -DOPENSSL_ROOT_DIR=/usr/local \
-      -DOPENSSL_INCLUDE_DIR=/usr/local/include \
-      -DOPENSSL_SSL_LIBRARY=/usr/lib/libssl.so.52.0 \
-      -DOPENSSL_CRYPTO_LIBRARY=/usr/lib/libcrypto.so.50.0 \
-      -DENABLE_MYSQL=OFF \
-      --trace --debug-output
+      ```
+      cmake -DCMAKE_INSTALL_PREFIX=/usr/bin/trojan \
+            -DOPENSSL_ROOT_DIR=/usr/local \
+            -DOPENSSL_INCLUDE_DIR=/usr/local/include \
+            -DOPENSSL_SSL_LIBRARY=/usr/lib/libssl.so.52.0 \
+            -DOPENSSL_CRYPTO_LIBRARY=/usr/lib/libcrypto.so.50.0 \
+            -DENABLE_MYSQL=OFF \
+            --trace --debug-output
       ```
       
     *ps: without no mysql support*
