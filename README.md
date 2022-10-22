@@ -18,7 +18,7 @@
 
 # OpenBSD 7.2 building progress 
 
-1. first download sources 
+1. first download source
      
      `wget https://github.com/trojan-gfw/trojan/archive/refs/tags/v1.16.0.zip`
 
