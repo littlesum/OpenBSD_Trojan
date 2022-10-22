@@ -5,8 +5,8 @@
 
 #!/bin/ksh
 
-daemon="/usr/local/bin/trojan"
-daemon_flags="-c /etc/trojan/config.json"
+daemon="/usr/bin/trojan"
+daemon_flags="-c /etc/trojan/config.json -l /var/log/trojan.log"
 
 
 . /etc/rc.d/rc.subr
@@ -16,4 +16,3 @@ rc_start() {
 	rc_exec "${daemon} ${daemon_flags}"
 }
 rc_cmd $1
-
