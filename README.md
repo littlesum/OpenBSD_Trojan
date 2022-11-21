@@ -19,11 +19,11 @@
 # OpenBSD 7.2 building progress 
 
 1. first download source
-     
+   
      `wget https://github.com/trojan-gfw/trojan/archive/refs/tags/v1.16.0.zip`
 
 2. install Dependencies lib
-     
+   
      `pkg_add boost cmake openssl`
 
 3. configure cmake
@@ -38,15 +38,17 @@
       ```
       
     *ps: without mysql support*
- 
+
  4. make
-     
+    
      `make install`
-      
+     
       or
-      
+     
       `make` && `cp trojan /usr/bin`
- 
+
  5. `mkdir /etc/trojan`
  6. config trojan
  7. done
+
+## test config some fix
